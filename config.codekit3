@@ -7,7 +7,7 @@
 		"uuidString": "FD8BBE26-A188-4FE2-AEC4-86AB5D15F992"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/build": {
 		"ft": 65536,
@@ -102,31 +102,34 @@
 	"\/img\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 38512,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
 		"iS": 216010,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 34409,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/favicons\/apple-touch-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicons\/browserconfig.xml": {
@@ -138,21 +141,23 @@
 	"\/img\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 1167,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/favicons\/favicon-16x16.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 2222,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/favicons\/favicon-32x32.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicons\/favicon.ico": {
@@ -172,11 +177,12 @@
 	"\/img\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 20278,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/favicons\/mstile-150x150.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/img\/favicons\/safari-pinned-tab.svg": {
@@ -192,11 +198,12 @@
 	"\/img\/menu.png": {
 		"ft": 32768,
 		"iS": 598,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/build\/img\/menu.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 70
 		},
 	"\/index.kit": {
@@ -207,7 +214,7 @@
 		},
 	"\/js\/jquery.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 1,
 		"oAP": "\/build\/js\/jquery.js",
 		"oF": 0,
@@ -216,7 +223,7 @@
 		},
 	"\/js\/scripts.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
 		"oAP": "\/build\/js\/scripts.js",
 		"oF": 0,
@@ -225,7 +232,7 @@
 		},
 	"\/js\/semantic.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 1,
 		"oAP": "\/build\/js\/semantic.js",
 		"oF": 0,
@@ -242,7 +249,7 @@
 	"displayValue": "lvl-4",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 515026781
+	"lastBuiltDate": 515028039
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1202,6 +1209,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2012,7 +2023,7 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"minifyOutput": 1,
+		"minifyOutput": 0,
 		"syntaxCheckerStyle": 0,
 		"transpilerStyle": 0
 		},
@@ -2025,14 +2036,6 @@
 		"autoOutputPathStyle": 0,
 		"orderOutput": 0,
 		"outputStyle": 1
-		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
@@ -2096,7 +2099,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
